@@ -1,0 +1,43 @@
+
+$primary-font:'Josefin Sans', sans-serif;
+$secondary-font: 'Aleo', serif;
+
+$text-color: rgb(255, 255, 255);
+$alternative-color: rgb(84, 116, 253);
+$footer-dark: rgb(51, 51, 51);
+
+// BASE FONT ONE (H2, H4 & PARAGRAPHS//
+// H2 also add font-size: 22px; letter-spacing: 6.8px;
+// H4 also add font-size: 20px; letter-spacing: 1.2px; text-transform: uppercase; 
+// P also add font-size: 16px; letter-spacing: 1.6px;
+@mixin base-font-1 {
+    color: $text-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+// BASE FONT TWO (H1 & H5)//
+// H1 also add font-size: 48px; letter-spacing: 4.8px;
+// H5 also add font-size: 24px; letter-spacing: 2.4px;
+@mixin base-font-2 {
+    color: $text-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;   
+    text-transform: uppercase; 
+}
+
+
+// ALTERNATIVE FONT (H3 & LINKS/BUTTONS)//
+// H3 also add font-size: 36px;
+// LINKS/BUTTONS also add font-size: 16px; letter-spacing: 1.2px; text-transform: uppercase; 
+@mixin alternative-font {
+    color: $text-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
