@@ -13,9 +13,9 @@ body {
 }
 
 
-// RESPONSIVE FOR SCREENS 320PX WIDTH //
+// RESPONSIVE FOR SCREENS 320PX WIDTH (mobile) //
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .p1-full, .p2-full, .p3-full, .p4-full, .p5-full,
     .p1__footer, .p2__footer, .p5__footer, form {
         max-width: 320px;
@@ -74,4 +74,48 @@ body {
         height: 200px;
     }
 
+}
+
+// RESPONSIVE FOR SCREENS 770PX WIDTH (tablet) //
+
+@media screen and (max-width: 770px) {
+    .p1-full, .p2-full, .p3-full, .p4-full, .p5-full,
+    .p1__footer, .p2__footer, .p5__footer, form {
+        max-width: 770px;
+        width: 100%;
+    }
+
+    .p1__footer, .p1__footer__nav-links, .p1-full_sec2,
+    .p2-full, .p3__box, .p4__box
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .p2__pictures {
+        max-width: 320px;
+        width: 100%;
+    }
+
+
+    .p3__box, .p4__box {
+    transform:translateX(0px);
+    }
+
+    .p5__box {
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p5__box--right, .p5__box--left{
+        width: 250px;
+    }
+
+    .p5__box--right {
+        overflow: scroll;
+    }
 }
