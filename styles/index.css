@@ -1,1 +1,30 @@
-/*# sourceMappingURL=index.css.map */
+.p1-full {
+  background-image: url(/images/p1_background.jpg);
+  background-size: cover;
+}
+
+.p2-full {
+  background-image: url(/images/p2_background.jpg);
+  background-size: cover;
+}
+
+.p3-full {
+  background-image: url(/images/p3_background.jpg);
+  background-size: cover;
+}
+
+.p4-full {
+  background-image: url(/images/p4_background.png);
+  background-size: cover;
+}
+
+.p5-full {
+  background-image: url(/images/p5_background.jpg);
+  background-size: cover;
+}
+
+body {
+  max-width: 1800px;
+  width: 100%;
+  margin: auto;
+}/*# sourceMappingURL=index.css.map */

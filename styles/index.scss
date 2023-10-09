@@ -1,6 +1,13 @@
+
+
 @import 'page-1';
 @import 'page-2';
 @import 'page-3';
 @import 'page-4';
 @import 'page-5';
 
+body {
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+} 
