@@ -3,7 +3,8 @@
 
 .p1-full {
     width: 100%;
-    height: 700px;
+    min-height: 700px;
+    height: 100%;
     background-image: url(/images/p1_background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -91,6 +92,8 @@ button:hover {
     color: $alternative-color;
     cursor: pointer;
 }
+
+// FOOTER //
 
 .p1__footer {
     width: 100%;

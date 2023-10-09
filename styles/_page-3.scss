@@ -2,7 +2,8 @@
 
 .p3-full {
     width: 100%;
-    height: 700px;
+    min-height: 700px;
+    height: 100%;
     background-image: url(/images/p3_background.jpg);  
     background-repeat: no-repeat;
     background-size: 100%;
