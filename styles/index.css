@@ -476,7 +476,7 @@ body {
     align-items: center;
   }
   .p5__box--right, .p5__box--left {
-    width: 250px;
+    width: 550px;
   }
   .p5__box--right {
     overflow: scroll;
